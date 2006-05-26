@@ -32,7 +32,6 @@ var thisCamera = thisCameraNode.textContent;
                 return false;
         }
         amazonurl = amazonurl+'&Operation=ItemSearch&Keywords='+thisCamera+'&SearchIndex=Electronics&ResponseGroup=Images&MerchantId=All&BrowseNode=3371371';
-        prompt('foo', amazonurl);
         GM_xmlhttpRequest(
         {
                 method: 'GET',
